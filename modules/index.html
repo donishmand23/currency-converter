@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<div id="container">
+		<h3>Valyuta konverter</h3>
+		<select>
+		</select>
+		<div id="inputContainer">
+			<h3><span class="firstCurrency">So'm</span>ni <span class="secondCurrency">Dollar</span>ga konvertatsiya qilish</h3>
+			<div class="span">
+				<h2 id="st">UZS</h2>
+				<input id="firstInput" placeholder="Summani kiriting" type="number">  =>
+				<input id="secondInput" onKeyDown="return false" type="number">
+				<h2 id="nd">USD</h2>
+			</div>
+			<h3><span class="secondCurrency">Dollar</span>ni <span class="firstCurrency">So'm</span>ga konvertatsiya qilish</h3>
+			<div class="span">
+				<h2 id="rd">USD</h2>
+				<input id="thirdInput" placeholder="Summani kiriting" type="number">  =>
+				<input id="fourthInput" onKeyDown="return false" type="number">
+				<h2 id="th">UZS</h2>
+			</div>
+			<footer>
+				<p>created by MuhammadHusayn</p>
+				<p><a href="https://t.me/donishmand23">Telegram</a></p>
+				<p><a href="https://openexchangerates.org/">openexchangerates.org</a> sayti API sidan foydalanildi. Kurs har bir soatda yangiladi</p>
+			</footer>
+		</div>
+	</div>
+<script src="./main.js"></script>
+</body>
+</html>
